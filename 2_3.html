@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <style>
+        /* Reset and basic styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        /* Header styles */
+        .hero {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .hero-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+        /* Main content */
+        .main-content {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .about-me,
+        .projects,
+        .contact {
+            margin-bottom: 40px;
+        }
+
+        .projects .project-card {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .projects .project-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .contact form {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+        }
+
+        .contact input,
+        .contact textarea,
+        .contact button {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Footer styles */
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px 0;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Syed Sarib Naveed</h1>
+            <p>Frontend Developer</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh.</p>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>E-commerce Website Development</h3>
+                <p>Develop an e-commerce website for University Use.</p>
+            </div>
+            <div class="project-card">
+                <h3>Cell Mart Website</h3>
+                <p>Developed Cell Mart Website</p>
+            </div>
+            <!-- Add more project cards as needed -->
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Syed Sarib Naveed. All rights reserved.</p>
+    </footer>
+</body>
+</html>
